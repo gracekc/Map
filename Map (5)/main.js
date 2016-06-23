@@ -1,4 +1,4 @@
-$(document).ready(function () {   
+/*$(document).ready(function () {   
    ko.applyBindings(viewModel);
 });
 
@@ -22,16 +22,19 @@ ko.bindingHandlers.map = {
       mapObj.googleMap = new google.maps.Map(element, mapOptions);
   }
 };
+*/
 
-
-/*//creating the map
+//creating the map
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
     center: {lat: 48.8567, lng: 2.3508}
-  }); 
+   });
+  } 
 
-   infowindow = new google.maps.InfoWindow();*/
+   infowindow = new google.maps.InfoWindow();
+
+
 
 
 //eiffel tower
